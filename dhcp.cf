@@ -1,0 +1,16 @@
+
+
+# A slightly different configuration for an internal subnet.
+subnet 192.168.253.0 netmask 255.255.255.0 {
+  range 192.168.253.135 192.168.253.160;
+  option domain-name-servers master.example.org;
+  option domain-name "master.example.org";
+  option routers 192.168.253.1;
+  option broadcast-address 192.168.253.255;
+  default-lease-time 600;
+  max-lease-time 7200;
+
+	filename "pxelinux.0";
+	next-server 192.168.253.140;
+}
+
