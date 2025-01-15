@@ -1,5 +1,5 @@
- ONLY FOR STATEFULLL
- 
+#ONLY FOR STATEFULLL fro centos 7
+#Check url for the yum since centos support is discontinued 
  
  
  sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
