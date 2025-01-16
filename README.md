@@ -7,4 +7,4 @@ shell
 
 
 
-ldap ,slurm , xcat script not yet completed
+ldap ,slurm , xcat script 
